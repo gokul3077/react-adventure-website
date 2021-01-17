@@ -11,7 +11,7 @@ function NavBar() {
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
-    if (window.innerWidth <= 960) {
+    if (window.innerWidth <= 940) {
       setButton(false);
     } else {
       setButton(true);
